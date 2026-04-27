@@ -7,33 +7,20 @@
 04. Hero css
 04.5 Promo Ticker css
 05. About Us Section Css
-05.5 Why Choose Us Css
-06. Premium Promo + Services
+
 08. Our Progress Section Css
 09. Product List Section Css
 10. Transformation Section Css
 11. Our Approach Section Css
 12. Scroll Content Section Css
 13. Pricing Plans Section Css
-14. Testimonial Section Css
+
 15. Gallery Section Css
-16. Shop Page Css
-17. Shop Detail Page Css
-18. Cart Page css
-19. Checkout Page css
-20. My Account Page css
-21.  Wishlist Page css
-22. FAQ Section Css
+
 23. Contact Section Css
-24. Letest Blog Section Css
-25. Video Section css
-26. Inner Pages Banner Css
-27. Team Members Section Css
-28. Blog Page Css
-29. Blog Single css
-30. Page Sidebar Css
+
 31. Service Detail Page Css
-32. Team Detail Page Css
+
 33. Landing Page css
 34. Footer Css
 35. Responsive css
@@ -92,17 +79,17 @@ Sidebar heading     :  22px,700,Bold "Noto Serif", serif (Heading Font)
   /* DORADO LOGOTIPO */
   --main-gradient: linear-gradient(
     90deg,
-    rgba(196, 160, 79, 0.95),
-    rgba(201, 169, 79, 0.95),
-    rgba(212, 190, 79, 0.95)
+    rgba(55, 49, 36, 0.95),
+    rgba(38, 34, 25, 0.95),
+    rgba(24, 23, 19, 0.95)
   );
   --bg-gradient: linear-gradient(
     45deg,
-    rgb(196 160 79 / 69%),
-    rgb(201 169 79 / 45%),
-    rgb(212 190 79 / 6%)
+    rgba(55, 49, 36, 0.809),
+    rgba(38, 34, 25, 0.78),
+    rgba(24, 23, 19, 0.539)
   );
-  --main-color: #d3a934;
+  --main-color: #292722;
 
   /* BASE CLARA */
   --primary-color: #181817;
@@ -230,7 +217,7 @@ h5 {
   background-color: var(--secondary-color);
 }
 
-.sis-section-title .sisf-subtitle::before,
+/* .sis-section-title .sisf-subtitle::before,
 .sis-section-title .sisf-m-subtitle::before {
   content: "";
   border-radius: 100%;
@@ -244,7 +231,7 @@ h5 {
   mask-size: cover;
   width: 32px;
   height: 32px;
-}
+} */
 
 .sis-section-title h2 {
   margin-bottom: 20px;
